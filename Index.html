@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Favicon/icons8-musical-100.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script defer src="Script.js"></script>
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="background">
+      <img src="Aritest Images/Beliver.jpg" id="bg_img" />
+    </div>
+<div class="container">
+      <div class="player_img">
+        <img src="Aritest Images/Beliver.jpg" id="cover" class="active" />
+      </div>
+      <h2 id="music_title">Capital Letters</h2>
+      <h3 id="musric_artist">Lorem, ipsum dolor.</h3>
+      <div class="player_progress" id="player_progress">
+        <div class="progress" id="progress">
+          <div class="music_duration">
+            <span id="current_time">0:00</span>
+            <span id="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="player_controls">
+        <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+        <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
+        <i class="fa-solid fa-forward" title="Next" id="next"></i>
+        <i class="fa-solid fa-heart" title="like" id="favourite"></i>
+      </div>
+      <div class="volume_slider">
+        <div id="volume"></div>
+        <div class="music_controls">
+          <i class="fa-solid fa-volume-low" title="reduce" id="volumeDown" ></i>
+          <i class="fa-sharp fa-solid fa-volume-high" title="increase" id="volumeUp" ></i>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
